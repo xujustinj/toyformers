@@ -14,3 +14,11 @@ pip install -r requirements.txt
 
 Each experiment exists entirely inside a self-contained notebook, with outputs already saved.
 To reproduce the experiments, you can re-run the notebook.
+
+## Tasks
+
+### Selection
+
+These experiments focus on finding an element in the sequence based on some criteria.
+
+- [outlier detection](./selection/outlier_detection.ipynb)
