@@ -17,8 +17,23 @@ To reproduce the experiments, you can re-run the notebook.
 
 ## Tasks
 
+### Classification
+
+These experiments use a sequence of labelled classification data.
+
+- [(easy) predicting the feature vector of linearly-separable binary classification](./classification/binary_classification_easy.ipynb)
+
+### Regression
+
+These experiments use a sequence of labelled regression data.
+
+- [(easy) predicting the feature vector of linear regression](./regression/linear_regression_easy.ipynb)
+- [(easy) directly predicting the response for unseen data, in linear regression](./regression/direct_linear_regression_easy.ipynb)
+- [(medium) directly predicting the response for unseen data](./regression/direct_regression_medium.ipynb)
+
 ### Selection
 
 These experiments focus on finding an element in the sequence based on some criteria.
 
-- [outlier detection](./selection/outlier_detection.ipynb)
+- [(easy) selecting the maximum Euclidean distance from mean](./selection/outlier_detection_easy.ipynb)
+- [(medium) selecting the most isolated point](./selection/outlier_detection_medium.ipynb)
